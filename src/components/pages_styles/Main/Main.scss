@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.wrap {
+  max-width: 1290px;
+  margin: 75px auto;
+}
+
+.card__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  grid-gap: 20px;
+  padding: 10px;
+}

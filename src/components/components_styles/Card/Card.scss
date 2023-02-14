@@ -1,0 +1,85 @@
+.card {
+  height: 530px;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.card__body {
+  display: flex;
+  overflow: hidden;
+  height: 240px;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.card__date--span {
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.card__date--icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px !important;
+}
+
+.card__date {
+  display: block;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #363636;
+  margin-bottom: 24px !important;
+  opacity: 0.6;
+}
+
+.card__title {
+  height: 70px;
+  overflow: hidden;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  color: #363636;
+  margin-bottom: 20px !important;
+  padding-bottom: 35px;
+}
+
+.card__description {
+  height: 105px;
+  // padding-bottom: 25px;
+  font-family: 'Montserrat';
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363636;
+  margin-bottom: 20px;
+}
+
+.card__button {
+  font-family: 'Montserrat';
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363636 !important;
+  text-transform: capitalize !important;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.card__button--span {
+  margin-left: 6px;
+}
+
+.read-more__link {
+  text-decoration: none;
+}

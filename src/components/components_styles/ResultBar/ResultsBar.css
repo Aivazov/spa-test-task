@@ -1,0 +1,17 @@
+.results__paragraph {
+  display: block;
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  margin-bottom: 5px;
+  color: #363636;
+}
+
+.results__paragraph--bottom-border {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 45px;
+}/*# sourceMappingURL=ResultsBar.css.map */
